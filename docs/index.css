@@ -406,7 +406,7 @@ p {
 #experience {
   background: var(--casi-blanco);
   width: 100vw;
-  height: 110vh;
+  height: 120vh;
   border-top: solid var(--color-bottom) 3px;
   padding-top: 30px;
 }
@@ -416,7 +416,9 @@ p {
   width: 90%;
   height: 100%;
 }
-
+.info-experience{
+  padding-top: 90px;
+}
 .info-experience h2 {
   color: #03091e;
 }
