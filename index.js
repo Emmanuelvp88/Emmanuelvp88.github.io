@@ -21,18 +21,18 @@ navLinks.addEventListener("click", () =>{
 
 // Codigo para el Scroll
 
-$(document).ready(function(){
-    var ir_a = $(".desplazar");
+// $(document).ready(function(){
+//     var ir_a = $(".desplazar");
 
-    ir_a.click(function(evento){
-        evento.preventDefault();
-        $("body, html").animate(
-            {
-            scrollTop: $(this.hash).offset().top,
-            }, 800
-        );
-    })
-})
+//     ir_a.click(function(evento){
+//         evento.preventDefault();
+//         $("body, html").animate(
+//             {
+//             scrollTop: $(this.hash).offset().top,
+//             }, 800
+//         );
+//     })
+// })
 
 
 // ${document}.ready( () =>{
