@@ -177,6 +177,7 @@ header {
 
 .info-hero p {
   color: var(--casi-blanco);
+  margin-bottom: 30px;
 }
 
 .info-h3 span {
@@ -290,7 +291,6 @@ header {
   background: var(--casi-blanco);
   height: 90vh;
   width: 100vw;
-
 }
 
 .container-about {
@@ -307,8 +307,6 @@ header {
   max-height: 80%;
   width: 60%;
   place-self: end center;
-  
-
 }
 
 .container-about img {
@@ -382,6 +380,8 @@ p {
 
 .info-skills {
   margin: 0 auto;
+  padding-top: 40px;
+  margin-top: 50px;
   width: 90%;
 }
 
