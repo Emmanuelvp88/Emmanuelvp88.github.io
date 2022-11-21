@@ -288,7 +288,7 @@ header {
 /* Start section About */
 #about {
   background: var(--casi-blanco);
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
 }
 
@@ -303,29 +303,25 @@ header {
 }
 
 .container-img {
-  max-height: 80%;
-  width: 60%;
+  height: 80%;
+  width: 70%;
   place-self: end center;
 }
 
 .container-about img {
+  object-fit: cover;
+  height: 450px;
   border-radius: 20px;
   border: solid 3px var(--color-bottom);
-  place-self: end center ;
-  opacity: .9;
-  height: 450px;
-  object-fit: cover;
+  opacity: .8777;
 }
-
 
 .info-about {
   width: 90%;
-  place-self: center center;
+  place-self: center start;
 }
 
-.info-about>p {
-  place-self: end end;
-}
+
 
 /* .info-about button,
 p {
@@ -339,17 +335,12 @@ p {
 
 .container-about p {
   color: var(--casi-blanco);
-
 }
 
 .container-about h2 {
   color: var(--casi-blanco);
-  width: 70%;
-
-
+  width: 90%;
 }
-
-
 
 .divider {
   width: 80px;
@@ -372,9 +363,10 @@ p {
   background-size: cover;
   background-position: center;
 }
-.container-skill{
+
+.container-skill {
   height: 80%;
-  
+
 }
 
 .info-skills {
@@ -414,7 +406,8 @@ p {
   width: 90%;
   height: 100%;
 }
-.info-experience{
+
+.info-experience {
   padding-top: 100px;
 }
 
@@ -459,18 +452,18 @@ p {
 
 /* Start Contact */
 #contact {
-  height: 150vh;
+  height: 140vh;
 }
 
 .container-contact {
   display: grid;
   width: 100%;
   height: 100%;
-  
+
 }
 
 .container-contact {
-  background-image: linear-gradient(to bottom, #03091eff, #0000009a), url(media/me.jpg);
+  background-image: linear-gradient(to bottom, #03091eaa, #0000009a), url(media/contact1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -479,7 +472,7 @@ p {
 .info-contact {
   width: 90%;
   margin: 0 auto;
-  place-self: end ;
+  place-self: end;
 }
 
 .form {
@@ -499,12 +492,14 @@ textarea {
   outline: none;
   border: none;
   border-bottom: solid #10df6d9a 3px;
-  color: #fff;
+  color: #fdfdfd;
+  font-size: 1.2em;
 
 }
 
 .container-input textarea {
   resize: none;
+  height: 200px;
 }
 
 .input-focus:focus {
@@ -635,17 +630,25 @@ textarea {
 
   }
 
+  .container-img {
+    display: none;
+  }
+
   /* a .download {
     display: block;
     margin: 30px auto;
   } */
 
-  .container-about img {
+  .container-about {
     width: 70%;
-    height: 80%;
+    height: 100%;
+
     place-self: center center;
-    background: linear-gradient(to top right, #000000e5, #00000011);
-    opacity: .7;
+    background-image: linear-gradient(to top right, #000000e5, #00000011), url(media/me.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* opacity: .7; */
   }
 
   .container-about {
@@ -746,9 +749,10 @@ textarea {
     display: none;
   }
 
-  .buttonBars{
-    left: 5   px;
+  .buttonBars {
+    left: 5 px;
   }
+
   .div-bar {
     justify-content: space-between;
   }
