@@ -630,14 +630,22 @@ textarea {
 
   }
 
+  .info-about {
+    justify-self: center;
+  }
+
+  .info-about p {
+    padding: 30px 0 70px 0;
+  }
+
   .container-img {
     display: none;
   }
 
-  /* a .download {
+  .download {
     display: block;
     margin: 30px auto;
-  } */
+  }
 
   .container-about {
     width: 70%;
@@ -726,9 +734,8 @@ textarea {
 
 
   /* Start About */
-  .info-about p:nth-child(4) {
-    display: none;
-  }
+
+
 
   /* Start Footer */
   .icon-footer b {
@@ -742,7 +749,7 @@ textarea {
 }
 
 
-@media screen and (max-width:620px) {
+@media screen and (max-width:500px) {
 
   /* Start NAV */
   .icon-nav {
@@ -768,6 +775,11 @@ textarea {
 
   .container-hero h3 {
     font-size: 1.7em;
+  }
+
+  /* Start abuot */
+  .info-about p{
+    display: none;
   }
 
   /* Start Skills */
@@ -815,7 +827,7 @@ textarea {
 
   /* Start Contact */
   #contact {
-    height: 95vh;
+    height: 120vh;
   }
 
   .form input,
