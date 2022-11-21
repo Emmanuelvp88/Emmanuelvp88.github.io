@@ -278,7 +278,8 @@ header {
 }
 
 .download:hover {
-  background: var(--color-bottom);
+  /* background: var(--color-nav);
+  color: #fff; */
   transform: translateY(-2px);
 }
 
@@ -404,11 +405,10 @@ p {
 
 /* Start Experience */
 #experience {
-  background: var(--casi-blanco);
+  background: #03091e;
   width: 100vw;
   height: 120vh;
-  border-top: solid var(--color-bottom) 3px;
-  padding-top: 30px;
+  border-bottom: 3px solid var(--color-bottom);
 }
 
 .container-experience {
@@ -417,10 +417,7 @@ p {
   height: 100%;
 }
 .info-experience{
-  padding-top: 90px;
-}
-.info-experience h2 {
-  color: #03091e;
+  padding-top: 100px;
 }
 
 .jobs {
@@ -433,10 +430,10 @@ p {
   text-align: center;
 }
 
-.jobs h3,
+/* .jobs h3,
 p {
   color: var(--color-body);
-}
+} */
 
 .jobs h3 {
   padding: 20px 0;
