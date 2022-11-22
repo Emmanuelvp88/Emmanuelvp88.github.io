@@ -395,13 +395,17 @@ p {
 
 /* Start Experience */
 #experience {
-  background: #03091e;
+  background-image: linear-gradient(to bottom , #010101ff, #01010180), url('media/experience1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100vw;
   height: 120vh;
-  border-bottom: 3px solid var(--color-bottom);
+  /* border-bottom: 3px solid var(--color-bottom); */
 }
 
 .container-experience {
+  
   margin: 0px auto;
   width: 90%;
   height: 100%;
@@ -642,11 +646,6 @@ textarea {
     display: none;
   }
 
-  .download {
-    display: block;
-    margin: 30px auto;
-  }
-
   .container-about {
     width: 70%;
     height: 100%;
@@ -762,6 +761,10 @@ textarea {
 
   .div-bar {
     justify-content: space-between;
+  }
+  .download {
+    display: block;
+    margin: 30px auto;
   }
 
   /* Start Hero */
