@@ -349,7 +349,6 @@ p {
 #skills {
   height: 100vh;
   padding-top: 3em;
-  border-top: 3px solid var(--color-bottom);
   background-image: linear-gradient(to top, rgba(4, 4, 4, .6), rgba(4, 4, 4, .6)), url("media/full-stack.jpg");
   background-repeat: no-repeat;
   background-size: cover;
