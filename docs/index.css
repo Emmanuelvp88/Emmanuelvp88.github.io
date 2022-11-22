@@ -531,38 +531,23 @@ textarea {
 .container-footer {
   width: 100vw;
   display: grid;
-  grid-template-areas: "info info info" "icon icon icon" "registrado registrado registrado";
-  background: var(--color-bottom);
+  /* grid-template-areas: "info info info" "icon icon icon" "registrado registrado registrado"; */
+  grid-template-rows: 1fr 40px ;
+  grid-template-columns: 1fr;
   text-align: center;
+  background: var(--color-bottom);
 }
-
-.info-footer {
-  grid-area: info;
-  /* grid-column: 2 / 3; */
-  /* grid-row: 1/3; */
-  align-self: center end;
-}
-
-.info-footer p {
-  padding: 10px 0px;
+.info-footer  {
+  padding: 20px 0 ;
   margin: 0 auto;
 }
 
 .ul-icon-footer {
-  grid-area: icon;
-  place-self: end center;
-  display: flex;
-  justify-content: end;
-  align-items: end;
-  padding: 10px;
-
-}
-
-.ul-icon-footer li {
-  /* display:flex; */
+  display:flex;
+  width: 200px;
+  justify-content: space-between;
+  justify-self: center;
   font-size: 30px;
-  padding: 0 10px;
-
 }
 
 
@@ -573,10 +558,9 @@ textarea {
 }
 
 .registrado {
-  grid-area: registrado;
   background: var(--color-bottom);
   font-size: 15px;
-  place-self: end;
+  justify-self: end;
   padding: 0 30px 0 0;
   color: #ebebeb;
 }
@@ -595,11 +579,6 @@ textarea {
 /* Boton Mobile */
 .buttonBars {
   display: none;
-  position: absolute;
-  font-size: 1.7em;
-  background: none;
-  border: none;
-  right: 20px;
 }
 
 @media screen and (max-width: 900px) {
@@ -718,8 +697,12 @@ textarea {
 
   .buttonBars {
     display: block;
-    cursor: pointer;
     position: relative;
+    font-size: 1.7em;
+    background: none;
+    border: none;
+    right: 20px;
+    cursor: pointer;
   }
 
   .div-bar {
