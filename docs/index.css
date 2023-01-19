@@ -95,8 +95,8 @@ header {
   font-size: 2em;
 }
 .icon-ev h2:hover{
-  transform: translateY(-2px);
-  
+  transform: scale(1.2);
+  transition-duration: .3s;
 }
 
 .ul-icon-nav {
