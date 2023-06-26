@@ -94,6 +94,10 @@ header {
 .icon-ev h2 {
   font-size: 2em;
 }
+.icon-ev h2:hover{
+  transform: scale(1.2);
+  transition-duration: .3s;
+}
 
 .ul-icon-nav {
   display: flex;
