@@ -586,7 +586,7 @@ textarea {
   display: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 924px) {
 
   h2 {
     font-size: 2.3em;
@@ -663,7 +663,7 @@ textarea {
 }
 
 
-@media screen and (max-width:770px) {
+@media screen and (max-width:823px) {
 
   /* Start NAV */
   /* .abajo {
