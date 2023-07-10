@@ -24,6 +24,7 @@ body {
 
 html {
   background: var(--color-body);
+  scroll-behavior: smooth;
 }
 
 img {
