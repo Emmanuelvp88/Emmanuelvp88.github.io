@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   color: #efefef;
+  scroll-behavior: smooth;
 
 }
 
@@ -19,7 +20,6 @@
 body {
   width: 101.2%;
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 
 html {
@@ -536,7 +536,6 @@ textarea {
 .container-footer {
   width: 100vw;
   display: grid;
-  /* grid-template-areas: "info info info" "icon icon icon" "registrado registrado registrado"; */
   grid-template-rows: 1fr 40px ;
   grid-template-columns: 1fr;
   text-align: center;
