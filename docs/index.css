@@ -95,7 +95,8 @@ header {
 .icon-ev h2 {
   font-size: 2em;
 }
-.icon-ev h2:hover{
+
+.icon-ev h2:hover {
   transform: scale(1.2);
   transition-duration: .3s;
 }
@@ -391,7 +392,7 @@ p {
 
 /* Start Experience */
 #experience {
-  background-image: linear-gradient(to bottom , #010101ff, #01010180), url('media/experience1.jpg');
+  background-image: linear-gradient(to bottom, #010101ff, #01010180), url('media/experience1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -401,7 +402,7 @@ p {
 }
 
 .container-experience {
-  
+
   margin: 0px auto;
   width: 90%;
   height: 100%;
@@ -536,18 +537,19 @@ textarea {
 .container-footer {
   width: 100vw;
   display: grid;
-  grid-template-rows: 1fr 40px ;
+  grid-template-rows: 1fr 40px;
   grid-template-columns: 1fr;
   text-align: center;
   background: var(--color-bottom);
 }
-.info-footer  {
-  padding: 20px 0 ;
+
+.info-footer {
+  padding: 20px 0;
   margin: 0 auto;
 }
 
 .ul-icon-footer {
-  display:flex;
+  display: flex;
   width: 200px;
   justify-content: space-between;
   justify-self: center;
@@ -694,6 +696,7 @@ textarea {
     align-items: center;
     border-top: 3px solid #00f7ff;
   }
+
   .nav-links li {
     padding: 30px 0;
     align-items: center;
@@ -748,6 +751,7 @@ textarea {
   .div-bar {
     justify-content: space-between;
   }
+
   .download {
     display: block;
     margin: 30px auto;
@@ -767,7 +771,7 @@ textarea {
   }
 
   /* Start abuot */
-  .info-about p{
+  .info-about p {
     display: none;
   }
 
