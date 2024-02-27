@@ -1,0 +1,4 @@
+- Poner un boton de ver pdf en el apartado de CV
+- En contacto del correo poner la opcion de copiar
+- Agregar boton de WahtsApp
+- Agregar escrito mi correo

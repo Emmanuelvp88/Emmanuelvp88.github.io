@@ -459,7 +459,6 @@ p {
   display: grid;
   width: 100%;
   height: 100%;
-
 }
 
 .container-contact {
@@ -486,8 +485,8 @@ p {
 .container-input input,
 textarea {
   width: 500px;
-  padding: 10px 0px;
-  margin: 10px 0px;
+  padding: 10px 0px 0px 0px;
+  margin: 7px 0px 0px 0px;
   background: transparent;
   outline: none;
   border: none;
@@ -499,7 +498,7 @@ textarea {
 
 .container-input textarea {
   resize: none;
-  height: 200px;
+  height: 100px;
 }
 
 .input-focus:focus {
