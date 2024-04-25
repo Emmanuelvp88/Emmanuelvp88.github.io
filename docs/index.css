@@ -215,7 +215,7 @@ header {
 
 .info-hero h3 {
   display: block;
-  width: fit-content;
+  width: auto;
   font-size: 2em;
   position: relative;
   color: transparent;
