@@ -9,6 +9,15 @@
   scroll-behavior: smooth;
 
 }
+html {
+  background: var(--color-body);
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  box-sizing: border-box;
+}
 
 :root {
   --color-body: #03091e;
@@ -17,22 +26,12 @@
   --casi-blnanco: #efefef;
 }
 
-body {
-  width: 100%;
-  box-sizing: border-box;
-}
-
-html {
-  background: var(--color-body);
-  scroll-behavior: smooth;
-}
-
 img {
   max-width: 100%;
 }
 
 a {
-  /* scroll-behavior: smooth; */
+
   text-decoration: none;
   font-weight: bold;
 }
@@ -183,10 +182,10 @@ header {
   top: 0;
   background-color: #00f7ff;
   height: 100%;
-  width: 0;
-  animation: revelator .8s ease-out;
+  width: 0%;
+  animation: revelator .8s ease-in-out;
 }
-
+/* Keyframes animaciones */
 @keyframes revelator {
   50% {
     width: 100%;
@@ -215,7 +214,7 @@ header {
 
 .info-hero h3 {
   display: block;
-  width: auto;
+  width: max-content;
   font-size: 2em;
   position: relative;
   color: transparent;
@@ -320,14 +319,14 @@ header {
 
 
 
-/* .info-about button,
+.info-about button,
 p {
   display: block;
   text-align: center;
   margin: 30px auto;
 
 
-} */
+}
 
 
 .container-about p {
