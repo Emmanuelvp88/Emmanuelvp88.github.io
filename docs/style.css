@@ -176,16 +176,39 @@ header {
   margin-bottom: 30px;
 }
 
+.info-h2 span{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  background-color: #00f7ff;
+  animation: revelator .8s ease-out;
+}
+.info-h2{
+  display: block;
+  width: max-content;
+  font-size: 2em;
+  position: relative;
+  color: transparent;
+  animation: revelator-text .2s ease;
+  animation-fill-mode: forwards;
+ 
+}
+
+/* Keyframes animaciones */
+
 .info-h3 span {
   position: absolute;
   left: 0;
   top: 0;
-  background-color: #00f7ff;
   height: 100%;
   width: 0%;
+  background-color: #00f7ff;
   animation: revelator .8s ease-in-out;
+  
 }
-/* Keyframes animaciones */
+
 @keyframes revelator {
   50% {
     width: 100%;
@@ -211,8 +234,7 @@ header {
 }
 
 
-
-.info-hero h3 {
+.info-h3 {
   display: block;
   width: max-content;
   font-size: 2em;
@@ -244,8 +266,7 @@ header {
   animation-delay: 2.3s;
 }
 
-
-
+/* End Keyframe Animaciones */
 .hero-photo {
   text-align: center;
 }
