@@ -9,6 +9,7 @@
   scroll-behavior: smooth;
 
 }
+
 html {
   background: var(--color-body);
   scroll-behavior: smooth;
@@ -95,7 +96,8 @@ header {
 .icon-ev h2 {
   font-size: 2em;
 }
-.icon-ev h2:hover{
+
+.icon-ev h2:hover {
   transform: scale(1.2);
   transition-duration: .3s;
 }
@@ -177,26 +179,6 @@ header {
   margin-bottom: 30px;
 }
 
-.info-h2 span{
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 0%;
-  background-color: #00f7ff;
-  animation: revelator .8s ease-out;
-}
-.info-h2{
-  display: block;
-  width: max-content;
-  font-size: 2em;
-  position: relative;
-  color: transparent;
-  animation: revelator-text .2s ease;
-  animation-fill-mode: forwards;
-}
-
-/* Keyframes animaciones */
 
 .info-h3 span {
   position: absolute;
@@ -206,8 +188,10 @@ header {
   width: 0%;
   background-color: #00f7ff;
   animation: revelator .8s ease-in-out;
-  
+
 }
+
+/* Start Keyframes animaciones */
 
 @keyframes revelator {
   50% {
@@ -237,7 +221,7 @@ header {
 .info-h3 {
   display: block;
   width: max-content;
-  font-size: 2em;
+  font-size: 2.5em;
   position: relative;
   color: transparent;
   animation: revelator-text 2s ease;
@@ -267,6 +251,7 @@ header {
 }
 
 /* End Keyframe Animaciones */
+
 .hero-photo {
   text-align: center;
 }
@@ -339,17 +324,13 @@ header {
   place-self: center start;
 }
 
-
-
-.info-about button,
-p {
+.info-about button,p {
   display: block;
   text-align: center;
   margin: 30px auto;
 
 
 }
-
 
 .container-about p {
   color: var(--casi-blanco);
@@ -412,7 +393,7 @@ p {
 
 /* Start Experience */
 #experience {
-  background-image: linear-gradient(to bottom , #010101ff, #01010180), url('media/experience1.jpg');
+  background-image: linear-gradient(to bottom, #010101ff, #01010180), url('media/experience1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -422,7 +403,7 @@ p {
 }
 
 .container-experience {
-  
+
   margin: 0px auto;
   width: 90%;
   height: 100%;
@@ -473,7 +454,7 @@ p {
 
 /* Start Contact */
 #contact {
-  height: 140vh;  
+  height: 140vh;
 }
 
 .container-contact {
@@ -556,18 +537,19 @@ textarea {
 .container-footer {
   width: 100vw;
   display: grid;
-  grid-template-rows: 1fr 40px ;
+  grid-template-rows: 1fr 40px;
   grid-template-columns: 1fr;
   text-align: center;
   background: var(--color-bottom);
 }
-.info-footer  {
-  padding: 20px 0 ;
+
+.info-footer {
+  padding: 20px 0;
   margin: 0 auto;
 }
 
 .ul-icon-footer {
-  display:flex;
+  display: flex;
   width: 200px;
   justify-content: space-between;
   justify-self: center;
@@ -714,6 +696,7 @@ textarea {
     align-items: center;
     border-top: 3px solid #00f7ff;
   }
+
   .nav-links li {
     padding: 30px 0;
     align-items: center;
@@ -753,7 +736,7 @@ textarea {
 
 }
 
-
+/* Start responsive desing  500px */
 @media screen and (max-width:500px) {
 
   /* Start NAV */
@@ -768,6 +751,7 @@ textarea {
   .div-bar {
     justify-content: space-between;
   }
+
   .download {
     display: block;
     margin: 30px auto;
@@ -787,7 +771,7 @@ textarea {
   }
 
   /* Start abuot */
-  .info-about p{
+  .info-about p {
     display: none;
   }
 
@@ -850,8 +834,5 @@ textarea {
   }
 
 
-  /* .registrado {
-    display: none;
-  } */
 
 }
