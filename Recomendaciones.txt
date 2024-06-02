@@ -1,4 +1,6 @@
-- Poner un boton de ver pdf en el apartado de CV
+- Poner un boton de ver pdf en el apartado de CV // Terminado
 - En contacto del correo poner la opcion de copiar
 - Agregar boton de WahtsApp
 - Agregar escrito mi correo
+- Detallar icono CSS
+- Actualizar el apartado WorkExperience
