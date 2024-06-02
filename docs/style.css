@@ -12,6 +12,7 @@
 html {
   background: var(--color-body);
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -193,7 +194,6 @@ header {
   color: transparent;
   animation: revelator-text .2s ease;
   animation-fill-mode: forwards;
- 
 }
 
 /* Keyframes animaciones */
@@ -328,9 +328,10 @@ header {
 .container-about img {
   object-fit: cover;
   height: 450px;
-  border-radius: 20px;
+  border-radius: 50%;
   border: solid 3px var(--color-bottom);
-  opacity: .8777;
+  opacity: .8;
+  background-color: var(--color-nav);
 }
 
 .info-about {
