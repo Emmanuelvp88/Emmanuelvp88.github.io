@@ -170,9 +170,7 @@ header {
 
   
 }
-.info-hero{
-  
-}
+
 .hero-photo {
   place-self: flex-end;
 
@@ -540,15 +538,13 @@ textarea {
 .container-footer {
   width: 100vw;
   display: grid;
-  grid-template-rows: 1fr 40px;
+  grid-template-rows: 70px 40px;
   grid-template-columns: 1fr;
   text-align: center;
   background: var(--color-bottom);
 }
-
-.info-footer {
-  padding: 20px 0;
-  margin: 0 auto;
+.info-footer p{
+  margin: 5px 0 ;
 }
 
 .ul-icon-footer {
@@ -558,7 +554,6 @@ textarea {
   justify-self: center;
   font-size: 30px;
 }
-
 
 .ul-icon-footer li:hover i {
   transform: scale(1.3);
@@ -590,6 +585,7 @@ textarea {
   display: none;
 }
 
+/* Start Responsive Desing */
 @media screen and (max-width: 924px) {
 
   h2 {
@@ -646,11 +642,6 @@ textarea {
     font-size: 1.2em;
   }
 
-  /* .info-about a {
-    margin-top: 100px;
-    line-height: 2em;
-  } */
-
   /* Start Section Skills */
 
 
@@ -665,7 +656,6 @@ textarea {
   }
 
 }
-
 
 @media screen and (max-width:823px) {
 
