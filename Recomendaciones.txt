@@ -13,3 +13,5 @@
 - Cambiar le tamaño y el siseño del boton de enviar el el formulario de contacto
 - Cambiarle el diseño al formulario de contacto.
 - Poner una foto mejor en el "Aboutme"
+- Colocar abajo de las secciones del NAV un subrayado en la parte de abajo con animacion hacia adelante y que la palabra
+quede seleccionada con el color para que sepan en qeu seccion se encuentran.

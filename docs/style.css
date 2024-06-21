@@ -62,7 +62,7 @@ b {
 span {
   color: var(--color-bottom);
 }
-
+/* Start Header > NAV */
 header {
   width: 90vw;
   background: var(--color-nav);
@@ -72,14 +72,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 3em;
-  margin: 0 auto;
+  padding: 0 1em;
+  margin: 0 0;
   width: 100%;
   position: fixed;
   z-index: 1;
   transition: .5s;
   opacity: .8;
-  height: 100px;
+  height: 90px;
 }
 
 .nav-bar>.abajo {
@@ -165,10 +165,14 @@ header {
   margin: 0 auto;
   height: 90vh;
   width: 90vw;
-  grid-template-columns: repeat(1, 2fr 1fr);
-  align-items: center;
-}
+  align-items: end;
+  /* grid-template-columns: repeat(1, 2fr 1fr); */
 
+  
+}
+.info-hero{
+  
+}
 .hero-photo {
   place-self: flex-end;
 
@@ -178,7 +182,6 @@ header {
   color: var(--casi-blanco);
   margin-bottom: 30px;
 }
-
 
 .info-h3 span {
   position: absolute;
@@ -480,8 +483,8 @@ p {
   display: flex;
   height: 90%;
   justify-content: center;
-  /* align-items: flex-start; */
-  /* text-align: center; */
+  align-items: flex-start;
+  text-align: center;
 }
 
 .container-input input,
@@ -760,6 +763,11 @@ textarea {
   /* Start Hero */
   #hero {
     height: 80vh;
+  }
+  .containe-hero{
+      /* display: flex; */
+      /* flex-align: center; */
+      align-content: center;
   }
 
   .jobs .download {
