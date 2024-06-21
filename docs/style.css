@@ -7,7 +7,6 @@
   padding: 0;
   color: #efefef;
   scroll-behavior: smooth;
-
 }
 
 html {
@@ -33,7 +32,6 @@ img {
 }
 
 a {
-
   text-decoration: none;
   font-weight: bold;
 }
@@ -49,7 +47,6 @@ h2 {
 h3 {
   font-size: 2em;
 }
-
 
 p {
   font-size: 1.1em;
@@ -77,14 +74,14 @@ header {
   width: 100%;
   position: fixed;
   z-index: 1;
-  transition: .5s;
-  opacity: .8;
+  transition: 0.5s;
+  opacity: 0.8;
   height: 90px;
 }
 
-.nav-bar>.abajo {
+.nav-bar > .abajo {
   background-color: var(--color-nav);
-  transition: .5s;
+  transition: 0.5s;
   box-shadow: 0px 2px 8px #000e;
   height: 70px;
 }
@@ -99,7 +96,7 @@ header {
 
 .icon-ev h2:hover {
   transform: scale(1.2);
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 
 .ul-icon-nav {
@@ -114,7 +111,7 @@ header {
 
 .ul-icon-nav li:hover {
   transform: scale(1.2);
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .indeed-nav {
@@ -132,25 +129,29 @@ header {
 .nav-links a {
   font-size: 18px;
   margin: 20px;
-
 }
 
 .nav-links a:hover {
   color: var(--color-bottom);
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .nav-links li:hover {
   color: var(--color-nav);
   transform: translateY(-2px);
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 
 /* Star section Hero */
 #hero {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, .7), rgba(0, 0, 0, .3)), url("media/lenguaje-programacion.jpg");
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("media/lenguaje-programacion.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -167,13 +168,10 @@ header {
   width: 90vw;
   align-items: end;
   /* grid-template-columns: repeat(1, 2fr 1fr); */
-
-  
 }
 
 .hero-photo {
   place-self: flex-end;
-
 }
 
 .info-hero p {
@@ -188,8 +186,7 @@ header {
   height: 100%;
   width: 0%;
   background-color: #00f7ff;
-  animation: revelator .8s ease-in-out;
-
+  animation: revelator 0.8s ease-in-out;
 }
 
 /* Start Keyframes animaciones */
@@ -207,7 +204,7 @@ header {
 }
 
 .info-h3:nth-child(1) span {
-  animation-delay: .5s;
+  animation-delay: 0.5s;
 }
 
 .info-h3:nth-child(2) span {
@@ -217,7 +214,6 @@ header {
 .info-h3:nth-child(4) span {
   animation-delay: 1.9s;
 }
-
 
 .info-h3 {
   display: block;
@@ -261,7 +257,7 @@ header {
   height: 450px;
   border: 3px solid var(--color-bottom);
   border-radius: 40px;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .download {
@@ -316,7 +312,7 @@ header {
   height: 450px;
   border-radius: 50%;
   border: solid 3px var(--color-bottom);
-  opacity: .8;
+  opacity: 0.8;
   background-color: var(--color-nav);
 }
 
@@ -325,12 +321,11 @@ header {
   place-self: center start;
 }
 
-.info-about button,p {
+.info-about button,
+p {
   display: block;
   text-align: center;
   margin: 30px auto;
-
-
 }
 
 .container-about p {
@@ -349,7 +344,7 @@ header {
   margin-bottom: 2em;
 }
 
-.info-about>.divider {
+.info-about > .divider {
   display: inline-block;
 }
 
@@ -357,7 +352,12 @@ header {
 #skills {
   height: 100vh;
   padding-top: 3em;
-  background-image: linear-gradient(to top, rgba(4, 4, 4, .6), rgba(4, 4, 4, .6)), url("media/full-stack.jpg");
+  background-image: linear-gradient(
+      to top,
+      rgba(4, 4, 4, 0.6),
+      rgba(4, 4, 4, 0.6)
+    ),
+    url("media/full-stack.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -365,7 +365,6 @@ header {
 
 .container-skill {
   height: 80%;
-
 }
 
 .info-skills {
@@ -394,7 +393,8 @@ header {
 
 /* Start Experience */
 #experience {
-  background-image: linear-gradient(to bottom, #010101ff, #01010180), url('media/experience1.jpg');
+  background-image: linear-gradient(to bottom, #010101ff, #01010180),
+    url("media/experience1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -404,7 +404,6 @@ header {
 }
 
 .container-experience {
-
   margin: 0px auto;
   width: 90%;
   height: 100%;
@@ -465,7 +464,8 @@ p {
 }
 
 .container-contact {
-  background-image: linear-gradient(to bottom, #03091eaa, #0000009a), url(media/contact1.jpg);
+  background-image: linear-gradient(to bottom, #03091eaa, #0000009a),
+    url(media/contact1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -496,7 +496,6 @@ textarea {
   border-bottom: solid #10df6d9a 3px;
   color: #fdfdfd;
   font-size: 1.2em;
-
 }
 
 .container-input textarea {
@@ -525,14 +524,13 @@ textarea {
   color: #fff;
   border: none;
   transform: translateY(-2px);
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 
 .container-input [type="submit"]:focus {
   transform: translateY(2px);
-  transition: .1s;
+  transition: 0.1s;
 }
-
 
 /*Start Footer  */
 .container-footer {
@@ -543,8 +541,8 @@ textarea {
   text-align: center;
   background: var(--color-bottom);
 }
-.info-footer p{
-  margin: 5px 0 ;
+.info-footer p {
+  margin: 5px 0;
 }
 
 .ul-icon-footer {
@@ -557,7 +555,7 @@ textarea {
 
 .ul-icon-footer li:hover i {
   transform: scale(1.3);
-  transition: .4s;
+  transition: 0.4s;
   color: #03091e;
 }
 
@@ -577,7 +575,7 @@ textarea {
 
 .indeed-footer:hover {
   transform: scale(1.5);
-  transition: .3s;
+  transition: 0.3s;
 }
 
 /* Boton Mobile */
@@ -587,7 +585,6 @@ textarea {
 
 /* Start Responsive Desing */
 @media screen and (max-width: 924px) {
-
   h2 {
     font-size: 2.3em;
   }
@@ -606,7 +603,6 @@ textarea {
   /* Start About */
   .container-about {
     grid-template-columns: 1fr;
-
   }
 
   .info-about {
@@ -624,9 +620,9 @@ textarea {
   .container-about {
     width: 70%;
     height: 100%;
-
     place-self: center center;
-    background-image: linear-gradient(to top right, #000000e5, #00000011), url(media/me.jpg);
+    background-image: linear-gradient(to top right, #000000e5, #00000011),
+      url(media/me.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -644,8 +640,6 @@ textarea {
 
   /* Start Section Skills */
 
-
-
   /* Start section Experience */
   .jobs p {
     display: none;
@@ -654,17 +648,11 @@ textarea {
   .jobs h3 {
     font-size: 1.5em;
   }
-
 }
 
-@media screen and (max-width:823px) {
-
+@media screen and (max-width: 823px) {
   /* Start NAV */
-  /* .abajo {
-    position: fixed;
-    z-index: 5;
-  } */
-
+  
   .nav-links {
     flex-direction: column;
     position: fixed;
@@ -675,11 +663,9 @@ textarea {
     width: 100%;
     height: 70vh;
     background: #03091e;
-    transition: top .4s;
+    transition: top 0.4s;
     top: -100%;
   }
-
-
 
   .nav-links_active {
     top: 0;
@@ -712,11 +698,8 @@ textarea {
   .ul-icon-nav {
     display: flex;
   }
-
-
+  
   /* Start About */
-
-
 
   /* Start Footer */
   .icon-footer b {
@@ -726,12 +709,10 @@ textarea {
   .registrado {
     display: none;
   }
-
 }
 
 /* Start responsive desing  500px */
-@media screen and (max-width:500px) {
-
+@media screen and (max-width: 500px) {
   /* Start NAV */
   .icon-nav {
     display: none;
@@ -754,10 +735,10 @@ textarea {
   #hero {
     height: 80vh;
   }
-  .containe-hero{
-      /* display: flex; */
-      /* flex-align: center; */
-      align-content: center;
+  .containe-hero {
+    /* display: flex; */
+    /* flex-align: center; */
+    align-content: center;
   }
 
   .jobs .download {
@@ -813,7 +794,7 @@ textarea {
 
   .jobs a {
     width: 100%;
-    font-size: .6em;
+    font-size: 0.6em;
   }
 
   /* Start Contact */
@@ -830,7 +811,4 @@ textarea {
   .info-footer h3 {
     font-size: 1.7em;
   }
-
-
-
 }
