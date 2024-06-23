@@ -395,7 +395,6 @@ p {
   background-repeat: no-repeat;
   width: 100vw;
   height: 120vh;
-  /* border-bottom: 3px solid var(--color-bottom); */
 }
 
 .container-experience {
@@ -417,11 +416,6 @@ p {
   align-items: center;
   text-align: center;
 }
-
-/* .jobs h3,
-p {
-  color: var(--color-body);
-} */
 
 .jobs h3 {
   padding: 20px 0;

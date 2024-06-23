@@ -1,17 +1,20 @@
-- Poner un boton de ver pdf en el apartado de CV // Terminado
+- Poner un boton de ver pdf en el apartado de CV \\ Terminado
 - En la seccion Contact me, en mail y Cell number poner la opcion de copiar
 - Agregar boton de WahtsApp
 - Agregar escrito mi correo
-- Detallar icono CSS
+- Detallar icono CSS \\ Terminado
 - Actualizar el apartado "WorkExperience"
 - Hacer que el menu amburgesa radie ondas
 - Que el menu salga completo con todo y nav al dar click al menu hamburgesa
 - Poner en metodo POST por JavaScript el envio del formulario
 - Cambiarle el color a la leyenda del fotter "inter developer" Color body-color
-- Hcer un Portfolio2 que tenga todo en un solo HTML
-- Poner un archivo referenciado en el boton de "aboutme" que hable sobre de mi
-- Cambiar le tamaño y el siseño del boton de enviar el el formulario de contacto
+- Hcer un Portfolio2 que tenga todo en un solo HTML.
+- Poner un archivo referenciado en el boton de "aboutme" que hable sobre de mi.
+- Cambiar le tamaño y el siseño del boton de enviar el el formulario de contacto.
 - Cambiarle el diseño al formulario de contacto.
-- Poner una foto mejor en el "Aboutme"
+- Poner una foto mejor en el "Aboutme".
 - Colocar abajo de las secciones del NAV un subrayado en la parte de abajo con animacion hacia adelante y que la palabra
 quede seleccionada con el color para que sepan en qeu seccion se encuentran.
+- Cambiar titulos de puestos en "work Experince" y quitar la descipcion de cada trabajo.
+- Poner en "Work Experince" un link en cada imagen de trabajo que los enlace ya sea a la pagina.
+oficial del trabajo o aun apartado de la descripcion de lo que yo realizaba en ese trabajo.
