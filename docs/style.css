@@ -375,15 +375,15 @@ p {
   display: grid;
   margin: 0 auto;
   grid-template-columns: repeat(auto-fill, minmax(100px,1fr ));
+  grid-template-areas: "emma emma emma";
   grid-template-rows: repeat(3, 120px);
-  grid-template-areas: "los3 los3 los3";
   align-items: center;
   height: 80%;
   width: 80%;
   padding-top: 2em;
 }
 .icon-skills li:first-child{
-  grid-area: los3;
+  grid-area: emma;
 }
 
 /* Start Work Experience */
