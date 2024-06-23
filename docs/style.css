@@ -374,21 +374,19 @@ p {
 .icon-skills {
   display: grid;
   margin: 0 auto;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(100px,1fr ));
   grid-template-rows: repeat(3, 120px);
+  grid-template-areas: "los3 los3 los3";
   align-items: center;
-  justify-items: center;
-  text-align: center;
   height: 80%;
   width: 80%;
   padding-top: 2em;
 }
-
-.icon-skills img {
-  width: 90%;
+.icon-skills li:first-child{
+  grid-area: los3;
 }
 
-/* Start Experience */
+/* Start Work Experience */
 #experience {
   background-image: linear-gradient(to bottom, #010101ff, #01010180),
     url("media/experience1.jpg");
