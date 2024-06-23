@@ -587,10 +587,8 @@ textarea {
   }
 
   /* Start Hero */
-  .container-hero {
-    grid-template-columns: 1fr;
-    align-content: center;
-  }
+
+
 
   /* Start About */
   .container-about {
@@ -706,6 +704,10 @@ textarea {
   /* Start Hero */
   #hero {
     height: 80vh;
+  }
+
+  .container-hero{
+    align-content: center;
   }
 
   .jobs .download {
