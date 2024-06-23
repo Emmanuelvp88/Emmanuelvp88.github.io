@@ -310,7 +310,6 @@ header {
   object-fit: cover;
   height: 450px;
   border-radius: 50%;
-  /* border: solid 3px var(--color-bottom); */
   opacity: 0.8;
   background-color: var(--color-nav);
 }
