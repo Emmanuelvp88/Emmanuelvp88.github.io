@@ -167,7 +167,6 @@ header {
   height: 90vh;
   width: 90vw;
   align-items: end;
-  /* grid-template-columns: repeat(1, 2fr 1fr); */
 }
 
 .hero-photo {
@@ -452,7 +451,7 @@ p {
 
 /* Start Contact */
 #contact {
-  height: 140vh;
+  height: 90vh;
 }
 
 .container-contact {
@@ -725,11 +724,6 @@ textarea {
   #hero {
     height: 80vh;
   }
-  .containe-hero {
-    /* display: flex; */
-    /* flex-align: center; */
-    align-content: center;
-  }
 
   .jobs .download {
     max-width: 100px;
@@ -788,10 +782,6 @@ textarea {
   }
 
   /* Start Contact */
-  #contact {
-    height: 120vh;
-  }
-
   .form input,
   textarea {
     width: 350px;
