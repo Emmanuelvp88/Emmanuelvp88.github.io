@@ -577,19 +577,17 @@ textarea {
 
   /* Start Hero */
 
-
-
   /* Start About */
   .container-about {
     width: 100vw;
     height: 100vh;
     background-image: linear-gradient(to top right, #000000e5, #00000011),
-    url(media/me.jpg);
+      url(media/me.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
-  
+
   .info-about {
     justify-self: center;
   }
@@ -609,8 +607,6 @@ textarea {
 
   /* Start Section Skills */
 
-
-
   /* Start section Experience */
   .jobs p {
     display: none;
@@ -622,7 +618,6 @@ textarea {
 }
 
 @media screen and (max-width: 823px) {
-
   /*Start NAV*/
   .nav-links {
     flex-direction: column;
@@ -694,7 +689,7 @@ textarea {
     height: 80vh;
   }
 
-  .container-hero{
+  .container-hero {
     align-content: center;
   }
 
