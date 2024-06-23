@@ -559,17 +559,6 @@ textarea {
   color: var(--color-body);
 }
 
-.indeed-footer {
-  width: 40px;
-  height: 40px;
-  margin-bottom: -9px;
-}
-
-.indeed-footer:hover {
-  transform: scale(1.5);
-  transition: 0.3s;
-}
-
 /* Boton Mobile */
 .buttonBars {
   display: none;
@@ -613,16 +602,14 @@ textarea {
     display: none;
   }
 
-  /* .container-about {
-    width: 100vw;
-  } */
-
   .info-about {
     position: absolute;
     font-size: 1.2em;
   }
 
   /* Start Section Skills */
+
+
 
   /* Start section Experience */
   .jobs p {
@@ -635,7 +622,8 @@ textarea {
 }
 
 @media screen and (max-width: 823px) {
-  /* Start NAV */
+
+  /*Start NAV*/
   .nav-links {
     flex-direction: column;
     position: fixed;
