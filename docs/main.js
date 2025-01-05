@@ -29,7 +29,7 @@ navLinks.addEventListener("click", () =>{
 //         $("body, html").animate(
 //             {
 //             scrollTop: $(this.hash).offset().top,
-//             }, 800
+//             }, 800,
 //         );
 //     })
 // })

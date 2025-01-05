@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="index.css" />
-    <script defer src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="icon" href="media/job.icon" />
     <title>Portfolio</title>
 </head>
@@ -45,7 +44,7 @@
                     </li>
                 </ul>
                 <button class="buttonBars">
-                    <i c class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-bars"></i>
                 </button>
             </div>
         </nav>
@@ -60,11 +59,11 @@
                 <h3 class="info-h3">I'm a Developer intern<span></span></h3>
                 <br />
                 <p>
-                    El verdadero éxito solo se encuentra en la determinación, convicción y
-                    constancia con la que estas dispuesto a alcanzar tus objetivos.
+                    Estoy convencido que el éxito se encuentra en la constancia, determinación y convicción
+                    con la cual estas dispuesto a obtener tus metas y objetivos.
                 </p>
-                <a href="media/Emmanuel CV.pdf" target="_blank" download="CV Emmanuel" title="CV Emmanuel">
-                    <button class="download">Download CV</button>
+                <a href="media/Emmanuel CV.pdf" target="_blank" title="CV Emmanuel">
+                    <button class="download">Ver CV PDF</button>
                 </a>
             </div>
         </section>
@@ -73,10 +72,11 @@
     <article id="contact">
         <section class="container-contact">
             <div class="info-contact">
-                <h2>Contact<span> me</span></h2>
+                <h2 class="info-h3">Contact me<span></span></h2>
                 <div class="divider"></div>
             </div>
-            <form class="form" action="https://formsubmit.co/emmanuel.villalvap@outlook.es" method="POST">
+            <!-- <form class="form" action="https://formsubmit.co/emmanuel.villalvap@outlook.es" method="POST"> -->
+            <form class="form" action="index.php" method="POST">
                 <div class="container-form">
                     <div class="container-input">
                         <input class="input-focus" type="text" name="name" placeholder="Name: " />
@@ -92,7 +92,7 @@
                             placeholder="Write your Message:"></textarea>
                     </div>
                     <div class="container-input">
-                        <input type="submit" placeholder="" />
+                        <input type="submit" value="enviar" placeholder="" />
                     </div>
                 </div>
             </form>
@@ -122,6 +122,7 @@
         </div>
     </footer>
     <!-- End Fotter -->
+    <script defer src="main.js"></script>
 </body>
 
 </html>
